@@ -7,6 +7,8 @@ export const profile = {
   linkedin: 'https://www.linkedin.com/in/s-jayapaulnaidu/',
 }
 
+const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`
+
 export const navigation = [
   { href: '#home', label: 'Home' },
   { href: '#experience', label: 'Experience' },
@@ -21,9 +23,9 @@ export const experience = [
 ]
 
 export const projects = [
-  { title: 'Pneumonia Detection', category: 'DEEP LEARNING', image: '/img/pn.jpg', description: 'Deep-learning driven image analysis for pneumonia detection using medical chest X-ray imagery.', tags: ['Python', 'TensorFlow', 'Keras', 'OpenCV'] },
-  { title: 'WeCareForYou', category: 'FULL-STACK', image: '/img/p3.png', description: 'A full-stack application designed to create a helpful, connected user experience.', tags: ['Angular', 'Flask', 'MySQL'] },
-  { title: 'Movie Recommendation System', category: 'MACHINE LEARNING', image: '/img/movie.jpg', description: 'A personalised recommendation engine that helps users discover their next favourite film.', tags: ['Python', 'ML', 'Pandas'] },
+  { title: 'Pneumonia Detection', category: 'DEEP LEARNING', image: asset('img/pn.jpg'), description: 'Deep-learning driven image analysis for pneumonia detection using medical chest X-ray imagery.', tags: ['Python', 'TensorFlow', 'Keras', 'OpenCV'] },
+  { title: 'WeCareForYou', category: 'FULL-STACK', image: asset('img/p3.png'), description: 'A full-stack application designed to create a helpful, connected user experience.', tags: ['Angular', 'Flask', 'MySQL'] },
+  { title: 'Movie Recommendation System', category: 'MACHINE LEARNING', image: asset('img/movie.jpg'), description: 'A personalised recommendation engine that helps users discover their next favourite film.', tags: ['Python', 'ML', 'Pandas'] },
 ]
 
 export const achievements = [
