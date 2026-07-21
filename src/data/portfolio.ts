@@ -18,7 +18,7 @@ export const navigation = [
 ]
 
 export const experience = [
-  { year: '03/2026 — PRESENT', company: 'WIPRO', title: 'Project Engineer', description: 'Building a strong foundation in Python development, software engineering practices, AI solutions, and collaborative delivery.', points: ['Technical training & continuous learning', 'Python development & intelligent automation', 'Team collaboration & problem solving'] },
+  { year: '03/2026 — PRESENT', company: 'WIPRO, BANGALORE', title: 'Project Engineer', description: 'Building a strong foundation in Python development, software engineering practices, AI solutions, and collaborative delivery.', points: ['Technical training & continuous learning', 'Python development & intelligent automation', 'Team collaboration & problem solving'] },
   { year: '08/2021 — 05/2025', company: 'KL UNIVERSITY, GUNTUR', title: 'B.Tech — CSE (AI & IPA)', description: 'Built a foundation in algorithms, AI, machine learning, software development, and real-world project work.' },
 ]
 
