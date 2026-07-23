@@ -19,12 +19,12 @@ export const navigation = [
 
 export const experience = [
   { year: '03/2026 — PRESENT', company: 'WIPRO, BANGALORE, KARNATAKA', title: 'Project Engineer', description: 'Building a strong foundation in Python development, software engineering practices, AI solutions, and collaborative delivery.', points: ['Technical training & continuous learning', 'Python development & intelligent automation', 'Team collaboration & problem solving'] },
-  { year: '08/2021 — 05/2025', company: 'KL UNIVERSITY, GUNTUR', title: 'B.Tech — CSE (AI & IPA)', description: 'Built a foundation in algorithms, AI, machine learning, software development, and real-world project work.' },
+  { year: '08/2021 — 05/2025', company: 'KL UNIVERSITY, GUNTUR, ANDHRA PRADESH', title: 'B.Tech — CSE (AI & IPA)', description: 'Built a foundation in algorithms, AI, machine learning, software development, and real-world project work.' },
 ]
 
 export const projects = [
   { title: 'Pneumonia Detection', category: 'DEEP LEARNING', image: asset('img/pn.jpg'), description: 'Deep-learning driven image analysis for pneumonia detection using medical chest X-ray imagery.', tags: ['Python', 'TensorFlow', 'Keras', 'OpenCV'] },
-  { title: 'WeCareForYou', category: 'FULL-STACK', image: asset('img/p3.png'), description: 'A full-stack application designed to create a helpful, connected user experience.', tags: ['Angular', 'Flask', 'MySQL'] },
+  { title: 'WeCareForYou', category: 'FULL-STACK', image: asset('img/p3.png'), description: 'a full-stack healthcare management system developed using Angular, Flask, and MySQL that enables patients to register, view doctors, and book appointments.', tags: ['Angular', 'Flask', 'MySQL'] },
   { title: 'Movie Recommendation System', category: 'MACHINE LEARNING', image: asset('img/movie.jpg'), description: 'A personalised recommendation engine that helps users discover their next favourite film.', tags: ['Python', 'ML', 'Pandas'] },
 ]
 
